@@ -9,7 +9,7 @@ class Test_Calc:
         assert self.calc.multiply(self, 2, 2) == 4
 
     def test_division_calculate_correctly(self):
-        assert self.calc.division(self, 2, 2) == 1
+        assert self.calc.division(self, 15, 3) == 5
 
     def test_subtraction_calculate_correctly(self):
         assert self.calc.subtraction(self, 10, 2) == 8
