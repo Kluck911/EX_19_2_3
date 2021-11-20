@@ -1,6 +1,14 @@
-import json.decoder
-
+import json
 import requests
+
+# Тип запроса GET
+# res = requests.get(url, headers=headers, params=params)
+# Тип запроса POST
+# res = requests.post(url, headers=headers, data=data)
+# Тип запроса DELETE
+# res = requests.delete(url, **kwargs)
+# Тип запроса PUT
+# res = requests.put(url, data=data)
 
 
 def get_api_key(email: str, passwd: str):
